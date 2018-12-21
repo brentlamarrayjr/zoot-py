@@ -1,0 +1,4 @@
+resources/
+zoot.egg-info/
+dist/
+build/
