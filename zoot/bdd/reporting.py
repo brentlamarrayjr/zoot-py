@@ -1,6 +1,6 @@
-from zoot.framework.testing.reporting import Reporting
-from zoot.framework.testing.common import Suite
-from zoot.framework.bdd.common import Scenario, IterableScenario, Background
+from zoot.testing.reporting import Reporting
+from zoot.testing.common import Suite
+from zoot.bdd.common import Scenario, IterableScenario, Background
 
 import re, time, json, os
 

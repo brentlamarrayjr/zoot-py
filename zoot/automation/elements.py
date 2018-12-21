@@ -3,8 +3,8 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support.ui import WebDriverWait, Select
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
-from zoot.framework.automation.drivers import Driver
-from zoot.framework.automation.wait import elements_to_be_displayed
+from zoot.automation.drivers import Driver
+from zoot.automation.wait import elements_to_be_displayed
 
 class Locator():
 

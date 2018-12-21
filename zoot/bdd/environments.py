@@ -1,12 +1,12 @@
 from types import ModuleType
 import inspect
 
-from zoot.framework.testing.common import Test, Suite
-from zoot.framework.bdd.common import Background, Scenario, IterableScenario, Feature, Step, Definition, StepDefinition
-from zoot.framework.testing.environments import Environment
-from zoot.framework.testing.reporting import ConsoleReporter
+from zoot.testing.common import Test, Suite
+from zoot.bdd.common import Background, Scenario, IterableScenario, Feature, Step, Definition, StepDefinition
+from zoot.testing.environments import Environment
+from zoot.testing.reporting import ConsoleReporter
 
-from zoot.framework.utils import files, collections
+from zoot.utils import files, collections
 
 from typing import Dict, List
 from enum import Enum

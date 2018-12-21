@@ -5,7 +5,7 @@ import unittest, re
 from typing import List, Callable
 from colorama import Fore, Back, Style
 
-from zoot.framework.utils.collections import TupleMap
+from zoot.utils.collections import TupleMap
 
 class Before(ABC):
 
@@ -23,7 +23,7 @@ class Before(ABC):
     def has_error(self) -> bool:
         pass
 
-    def to_xml(self, classname:str="zoot.framework.common.testing.Before") -> (str):
+    def to_xml(self, classname:str="zoot.common.testing.Before") -> (str):
 
         if self.has_error():
             return '\t<testcase classname="{}" name="{}">\n\t\t<failure type="BeforeException" message="{}"></failure>\n\t</testcase>\n'.format(classname, self.get_name(), self.get_error())
@@ -71,7 +71,7 @@ class Test(ABC, unittest.TestCase):
     def run_test(self):
         pass
 
-    def to_xml(self, classname:str="zoot.framework.common.testing.Test") -> (str):
+    def to_xml(self, classname:str="zoot.common.testing.Test") -> (str):
 
         if self.has_error():
             return '\t<testcase classname="{}" name="{}">\n\t\t<failure type="TestException" message="{}"></failure>\n\t</testcase>\n'.format(classname, self.get_name(), self.get_error())

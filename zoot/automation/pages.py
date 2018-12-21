@@ -2,11 +2,11 @@ from typing import Dict
 
 from selenium.webdriver.support.ui import WebDriverWait
 
-from zoot.framework.automation.drivers import Driver
+from zoot.automation.drivers import Driver
 
-from zoot.framework.automation.elements import Locator
+from zoot.automation.elements import Locator
 
-from zoot.framework.automation.wait import elements_to_be_present
+from zoot.automation.wait import elements_to_be_present
 
 class PageInfo():
 

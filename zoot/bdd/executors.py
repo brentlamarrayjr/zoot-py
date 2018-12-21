@@ -1,7 +1,7 @@
-from zoot.framework.bdd.environments import FeatureEnvironment
-from zoot.framework.testing.executors import Executor
-from zoot.framework.bdd.common import set_definitions
-from zoot.framework.utils.files import find_files, load_modules_ordered, load_modules
+from zoot.bdd.environments import FeatureEnvironment
+from zoot.testing.executors import Executor
+from zoot.bdd.common import set_definitions
+from zoot.utils.files import find_files, load_modules_ordered, load_modules
 
 from unittest import TestSuite, TextTestRunner
 from colorama import init as init_colorama

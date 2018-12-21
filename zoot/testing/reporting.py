@@ -4,7 +4,7 @@ import time, os, re, json, threading
 
 from colorama import Fore, Back, Style
 
-from zoot.framework.testing.common import Suite, Test, TestListener
+from zoot.testing.common import Suite, Test, TestListener
 
 class Reporter(TestListener):
 

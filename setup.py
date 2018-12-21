@@ -5,8 +5,8 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
   name = 'zoot',
-  packages=setuptools.find_packages(),
-  version = '0.0.1',
+  packages=['zoot', 'zoot.automation', 'zoot.automation.mobile', 'zoot.bdd', 'zoot.testing', 'zoot.utils'],
+  version = '0.0.5',
   description = 'Web automation and REST API testing framework',
   long_description_content_type="text/markdown",
   author = 'Brent Ray',

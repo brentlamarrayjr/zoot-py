@@ -1,8 +1,8 @@
 from abc import ABC, abstractmethod
 from typing import List
 
-from zoot.framework.automation.pages import Page
-from zoot.framework.automation.drivers import Driver
+from zoot.automation.pages import Page
+from zoot.automation.drivers import Driver
 
 class Automation(ABC):
 

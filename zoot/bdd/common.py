@@ -3,10 +3,10 @@ from typing import List, Dict, Callable
 from abc import ABC, abstractmethod
 import re
 
-from zoot.framework.utils.collections import TupleMap
-from zoot.framework.testing.reporting import ConsoleReporter
+from zoot.utils.collections import TupleMap
+from zoot.testing.reporting import ConsoleReporter
 
-from zoot.framework.testing.common import Before, Test, TestListenerHandler, TestListener, Suite
+from zoot.testing.common import Before, Test, TestListenerHandler, TestListener, Suite
 
 
 class Definition(ABC):

@@ -1,6 +1,6 @@
 from typing import Dict
 from appium import webdriver
-from zoot.framework.automation.drivers import Driver
+from zoot.automation.drivers import Driver
 
 class MobileDriver(Driver):
 

@@ -1,10 +1,10 @@
-from zoot.framework.automation.mobile.common import AppiumData
-from zoot.framework.automation.pages import Page, PageInfo
-from zoot.framework.automation.common import Automation
-from zoot.framework.testing.environments import Environment
-from zoot.framework.automation.drivers import Driver, ChromeDriver, FirefoxDriver, SafariDriver, IEDriver
-from zoot.framework.automation.mobile.drivers import MobileDriver
-from zoot.framework.utils import files
+from zoot.automation.mobile.common import AppiumData
+from zoot.automation.pages import Page, PageInfo
+from zoot.automation.common import Automation
+from zoot.testing.environments import Environment
+from zoot.automation.drivers import Driver, ChromeDriver, FirefoxDriver, SafariDriver, IEDriver
+from zoot.automation.mobile.drivers import MobileDriver
+from zoot.utils import files
 
 from typing import Dict, List
 
